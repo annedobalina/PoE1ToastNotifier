@@ -8,12 +8,12 @@
 
 ################################################################################################################ 
 #Configurable file paths
-# Path to Client.txt
-# STEAM USERS your path is normally 'C:\Program Files (x86)\Steam\steamapps\common\Path of Exile\logs\Client.txt'  
-# STANDALONG USERS your path is normally ' C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt'
+# Path to LatestClient.txt
+# STEAM USERS your path is normally 'C:\Program Files (x86)\Steam\steamapps\common\Path of Exile\logs\LatestClient.txt'  
+# STANDALONG USERS your path is normally ' C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\LatestClient.txt'
 # Custom installation locations will have different paths.
 
-$clientLogPath = 'C:\Program Files (x86)\Steam\steamapps\common\Path of Exile\logs\Client.txt'  
+$clientLogPath = 'C:\Program Files (x86)\Steam\steamapps\common\Path of Exile\logs\LatestClient.txt'  
 
 ################################################################################################################ 
 
