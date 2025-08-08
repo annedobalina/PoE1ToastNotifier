@@ -28,7 +28,15 @@ $conditions = @(
 
     @{ Pattern = 'Spawning discoverable Hideout'; Title = 'HIDEOUT FOUND'; Message = 'A Hideout is in this map!'; SoundFile = "" },
     @{ Pattern = 'A Reflecting Mist has manifested nearby'; Title = 'REFLECTING MIST'; Message = 'Reflecting Mist has Spawned!'; SoundFile = "" },
-    @{ Pattern = 'The Nameless Seer has appeared nearby'; Title = 'NAMELESS SEER'; Message = 'Nameless Seer has Spawned'; SoundFile = "" }
+    @{ Pattern = 'The Nameless Seer has appeared nearby'; Title = 'NAMELESS SEER'; Message = 'Nameless Seer has Spawned'; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: You there! A moment of your time?'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: Go on, Exile - approach the tear.'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: What are you doing? Approach the tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: Here, Exile! Another tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: Over here, don't dally!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: Here, Exile! Another tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: Exile, we have yet to unravel this one!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = 'Eagon Caeserius: Look, Exile - a fresh tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" }
 )
 
 ################################################################################################################ 
