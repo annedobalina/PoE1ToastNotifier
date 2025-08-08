@@ -33,7 +33,7 @@ $conditions = @(
     @{ Pattern = 'Eagon Caeserius: Go on, Exile - approach the tear.'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
     @{ Pattern = 'Eagon Caeserius: What are you doing? Approach the tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
     @{ Pattern = 'Eagon Caeserius: Here, Exile! Another tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
-    @{ Pattern = 'Eagon Caeserius: Over here, don't dally!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
+    @{ Pattern = "Eagon Caeserius: Over here, don't dally!"; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
     @{ Pattern = 'Eagon Caeserius: Here, Exile! Another tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
     @{ Pattern = 'Eagon Caeserius: Exile, we have yet to unravel this one!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" },
     @{ Pattern = 'Eagon Caeserius: Look, Exile - a fresh tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' ; SoundFile = "" }
