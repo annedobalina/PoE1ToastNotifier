@@ -31,7 +31,8 @@ Make sure you're running in Windowed Fullscreen.
 # Extending Functionality:
 The script has room for you to add your own trigger conditions, as long as they are written to the client.txt file.  
 
-Eg, Want a notification when Eagon is near a Memory tear? You can add that but you'll need to find every variation of his voicelines that state he's found one (there are many).
+EDIT: Added Eagon Voicelines for memory tear spawns.
+
 
 Want to know when a certain Merc is around? Add their voicelines (or maybe their name) too (but remember to disable when you hire them or you'll get spammed).
 
