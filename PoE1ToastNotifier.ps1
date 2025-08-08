@@ -51,7 +51,15 @@ $conditions = @(
 
     @{ Pattern = 'Spawning discoverable Hideout'; Title = 'HIDEOUT FOUND'; Message = 'A Hideout is in this map!' },
     @{ Pattern = 'A Reflecting Mist has manifested nearby'; Title = 'REFLECTING MIST'; Message = 'Reflecting Mist has Spawned!' },
-    @{ Pattern = 'The Nameless Seer has appeared nearby'; Title = 'NAMELESS SEER'; Message = 'Nameless Seer has Spawned' }
+    @{ Pattern = 'The Nameless Seer has appeared nearby'; Title = 'NAMELESS SEER'; Message = 'Nameless Seer has Spawned' },
+    @{ Pattern = 'Eagon Caeserius: You there! A moment of your time?'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' },
+    @{ Pattern = 'Eagon Caeserius: Go on, Exile - approach the tear.'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' },
+    @{ Pattern = 'Eagon Caeserius: What are you doing? Approach the tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' },
+    @{ Pattern = 'Eagon Caeserius: Here, Exile! Another tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' },
+    @{ Pattern = 'Eagon Caeserius: Over here, don't dally!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' },
+    @{ Pattern = 'Eagon Caeserius: Here, Exile! Another tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' },
+    @{ Pattern = 'Eagon Caeserius: Exile, we have yet to unravel this one!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' },
+    @{ Pattern = 'Eagon Caeserius: Look, Exile - a fresh tear!'; Title = 'EAGON TEAR FOUND'; Message = 'A Tear has been found' }
 
     # Add more conditions here, make sure to add a comma to the end of the previous line but not the last one.
     # To remove a condition, comment out with a # before the line.
@@ -68,3 +76,4 @@ Get-Content $clientLogPath -Tail 1 -Wait | ForEach-Object {
         }
     }
 }
+
